@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(229, 226, 226);
+}
+
+li {
+    cursor: pointer;
+}
+
+img.raio1 {
+    position: absolute;
+    height: 50px;
+    margin-left: 35px;
+}
+
+img.raio2 {
+    position: absolute;
+    height: 50px;
+    margin-left: 1270px;
+}
+
+.menu img{
+    width: 180px;
+}
+
+nav {
+    text-align: center;
+    background-color: yellow;
+    height: 40px;
+    padding-top: 10px;
+}
+
+a {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+
+/* Inicio dos produtos */
+.box_produto{
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.box_produto p {
+    width: 320px;
+}
+
+img.itens {
+    width: 120px;
+    cursor: pointer;
+}
+
+.preco{
+    color: red;
+}
+
+section.produtos{
+    margin-left: 200px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
+    margin-top: -10px;
+}
+
+section.categorias{
+    width: 220px;
+    position: absolute;
+}
+
+ul, li {
+    padding-left: 10px;
+}
+
+/* Fim dos produtos */
+
+/* Inicio footer */
+#rodape{
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+
+h4{
+    color: red;
+}
+/* Fim do footer*/
+
+/* Contatos*/
+
+div.container_contatos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.email {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+}
+
+div.zap{
+    display: inline-block;
+    text-align: center;
+}
+
+div.zap img {
+    width: 50px;
+}
+
+div.email img{
+    width: 50px;
+}
+
+form{
+    width: 500px;
+    text-align: center;
+     margin: 0 auto 0 auto;
+}
+
+input.enviar{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+}
+/* Fim contatos*/
+
+/* Nossas lojas*/
+div.lojas{
+    display: inline-block;
+    margin: 30px 50px 30px 50px;
+}
+
+div.container_lojas{
+    text-align: center;
+}
+/*Fim Nossas Lojas*/
